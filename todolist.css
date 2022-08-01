@@ -1,0 +1,75 @@
+/* Include the padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
+
+/* Style the input */
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 50%;
+    padding: 10px;
+padding-right: 10px;
+    font-size: 16px;
+}
+
+
+.header {
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    padding-left: 90px;
+    padding-bottom: 80px;
+}
+
+h1 {
+    text-shadow: 2px 4px red;
+    margin-left: 140px;
+}
+
+/* Remove margins and padding from the list */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 18px;
+width: 50%;
+height: 30px;
+}
+/* Darker background-color on hover */
+ul li:hover {
+    background:whitesmoke;
+    
+  }
+  
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+
+/* Style the "Add" button */
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+body {
+    background-image: url("glitter.jpg");
+    background-size: cover;
+}
